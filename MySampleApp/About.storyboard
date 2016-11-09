@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About-->
+        <scene sceneID="u3p-TI-av5">
+            <objects>
+                <viewController storyboardIdentifier="About" title="About" id="yhi-Fj-7Kg" customClass="AboutController" customModule="MySampleApp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JoD-Jq-I8m"/>
+                        <viewControllerLayoutGuide type="bottom" id="wdz-V1-hUA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FW1-0e-FLU">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Overview" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yei-vc-SEa">
+                                <frame key="frameInset" minX="20" minY="8" width="71" height="20"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBv-LC-MgU">
+                                <frame key="frameInset" minX="20" minY="36" width="1457" height="83"/>
+                                <string key="text">Automobile English Program (AEP) is an english program designed and condutcted by OSU English Department. The App is created for Honda Automotive America the ease of learning English language on a iOS smartphone.</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Jackie Gishbaugher " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPp-aB-fzd">
+                                <frame key="frameInset" minX="20" minY="420" width="560" height="83"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Program Conductor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VL0-pe-WVC">
+                                <frame key="frameInset" minX="28" minY="391" width="162" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="wPp-aB-fzd" secondAttribute="trailing" id="0nb-8B-Pb7"/>
+                            <constraint firstItem="vBv-LC-MgU" firstAttribute="top" secondItem="Yei-vc-SEa" secondAttribute="bottom" constant="8" symbolic="YES" id="3CW-pG-w8A"/>
+                            <constraint firstItem="vBv-LC-MgU" firstAttribute="leading" secondItem="Yei-vc-SEa" secondAttribute="leading" id="L1a-1w-Qc7"/>
+                            <constraint firstItem="Yei-vc-SEa" firstAttribute="top" secondItem="JoD-Jq-I8m" secondAttribute="bottom" constant="8" symbolic="YES" id="PEM-KF-f2I"/>
+                            <constraint firstItem="wPp-aB-fzd" firstAttribute="top" secondItem="VL0-pe-WVC" secondAttribute="bottom" constant="8" symbolic="YES" id="SMX-WA-Oe2"/>
+                            <constraint firstItem="VL0-pe-WVC" firstAttribute="top" secondItem="vBv-LC-MgU" secondAttribute="bottom" constant="8" symbolic="YES" id="Td0-6R-BRS"/>
+                            <constraint firstItem="wPp-aB-fzd" firstAttribute="leading" secondItem="VL0-pe-WVC" secondAttribute="leading" id="f4p-uQ-ho9"/>
+                            <constraint firstItem="VL0-pe-WVC" firstAttribute="leading" secondItem="vBv-LC-MgU" secondAttribute="leading" id="l46-CH-K9h"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Yei-vc-SEa" secondAttribute="leading" id="mf3-Mz-dpP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vBv-LC-MgU" secondAttribute="trailing" id="r0E-0p-Fb7"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="00y-Qh-zb7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86" y="395"/>
+        </scene>
+    </scenes>
+</document>
