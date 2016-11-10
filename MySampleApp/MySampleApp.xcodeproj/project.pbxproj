@@ -26,6 +26,7 @@
 		D30D10671DCCFFC30063EC39 /* Record.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30D10601DCCFFC30063EC39 /* Record.storyboard */; };
 		D30D10681DCCFFC30063EC39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D10611DCCFFC30063EC39 /* ViewController.swift */; };
 		D30D106A1DCD00920063EC39 /* GoogleAPIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30D10691DCD00920063EC39 /* GoogleAPIClient.framework */; };
+		D3BD46691DD4D213005DA6F1 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BD46681DD4D213005DA6F1 /* Global.swift */; };
 		D91D3A841DC307E30023E90C /* AWSCognitoIdentityProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91D3A831DC307E30023E90C /* AWSCognitoIdentityProvider.framework */; };
 		D91D3A851DC307F30023E90C /* AWSCognitoIdentityProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91D3A831DC307E30023E90C /* AWSCognitoIdentityProvider.framework */; };
 		D91D3A861DC307F30023E90C /* AWSCognitoIdentityProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D91D3A831DC307E30023E90C /* AWSCognitoIdentityProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -194,6 +195,7 @@
 		D30D10601DCCFFC30063EC39 /* Record.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Record.storyboard; path = MySampleApp/App/Camera/Record.storyboard; sourceTree = SOURCE_ROOT; };
 		D30D10611DCCFFC30063EC39 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = MySampleApp/App/Camera/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		D30D10691DCD00920063EC39 /* GoogleAPIClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAPIClient.framework; path = "Pods/../build/Debug-iphoneos/GoogleAPIClient/GoogleAPIClient.framework"; sourceTree = "<group>"; };
+		D3BD46681DD4D213005DA6F1 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Global.swift; path = MySampleApp/App/Global.swift; sourceTree = SOURCE_ROOT; };
 		D91D3A831DC307E30023E90C /* AWSCognitoIdentityProvider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognitoIdentityProvider.framework; path = MySampleApp/Sdk/Aws/AWSCognitoIdentityProvider.framework; sourceTree = "<group>"; };
 		D92C27A91DC147F600185388 /* UserProfileDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserProfileDB.swift; path = MySampleApp/Demo/UserIdentity/UserProfileDB.swift; sourceTree = SOURCE_ROOT; };
 		D95672FD1DCAB03F001940A5 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = MySampleApp/App/SignIn/SignUpViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -406,6 +408,7 @@
 				B401C9790444F97300000000 /* SignIn */,
 				B401C979FEF8915B00000000 /* SupportingFiles */,
 				B401C9790780384B00000000 /* Utility */,
+				D3BD46681DD4D213005DA6F1 /* Global.swift */,
 			);
 			name = App;
 			path = mysampleapp/app;
@@ -565,7 +568,7 @@
 				LastUpgradeCheck = 0700;
 				TargetAttributes = {
 					E66DC04E0000000000000000 = {
-						DevelopmentTeam = H7A9792ZT3;
+						DevelopmentTeam = KAU9RMDDR6;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -719,6 +722,7 @@
 				E7A30F0433D6706B00000000 /* ColorThemeSettings.swift in Sources */,
 				D30D10681DCCFFC30063EC39 /* ViewController.swift in Sources */,
 				E7A30F041B36786A00000000 /* NoSQLSampleDataGenerator.swift in Sources */,
+				D3BD46691DD4D213005DA6F1 /* Global.swift in Sources */,
 				D30D10631DCCFFC30063EC39 /* CameraView.swift in Sources */,
 				486460661DD2DB8100238AE9 /* VideoViewController.swift in Sources */,
 				D9F3B8FC1DC3979F00669CC7 /* AWSCUPIdPSignInProvider.swift in Sources */,
@@ -796,7 +800,7 @@
 				CODE_SIGN_ENTITLEMENTS = MySampleApp/MySampleApp.entitlements;
 				CODE_SIGN_IDENTITY = "iphone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = H7A9792ZT3;
+				DEVELOPMENT_TEAM = KAU9RMDDR6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -809,7 +813,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/MySampleApp/App/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chua.AEP-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shaoguang.AEP-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -877,7 +881,7 @@
 				CODE_SIGN_ENTITLEMENTS = MySampleApp/MySampleApp.entitlements;
 				CODE_SIGN_IDENTITY = "iphone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = H7A9792ZT3;
+				DEVELOPMENT_TEAM = KAU9RMDDR6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -890,7 +894,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/MySampleApp/App/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chua.AEP-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shaoguang.AEP-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";

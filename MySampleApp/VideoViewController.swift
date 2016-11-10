@@ -18,6 +18,7 @@ class VideoViewController: UIViewController,AVAudioPlayerDelegate {
  
     
     func video1(url:String){
+        countVideo.count = 1
         let videoURL = NSURL(string: url)
         let player = AVPlayer(URL: videoURL!)
         let playerViewController = AVPlayerViewController()
@@ -34,7 +35,6 @@ class VideoViewController: UIViewController,AVAudioPlayerDelegate {
     
     
     func playerDidFinishPlaying(note:NSNotification){
-        print("finished")
         dismissViewControllerAnimated(true, completion: nil)
         let storyboard = UIStoryboard(name: "Record", bundle: nil)
         let vc = storyboard.instantiateViewControllerWithIdentifier("Record") as UIViewController
@@ -48,4 +48,3 @@ class VideoViewController: UIViewController,AVAudioPlayerDelegate {
  
     
 }
-

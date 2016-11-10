@@ -2,6 +2,7 @@ import UIKit
 import AVFoundation
 import Photos
 
+
 class ViewController: UIViewController{
     
     @IBOutlet weak var cameraView: CameraView!
