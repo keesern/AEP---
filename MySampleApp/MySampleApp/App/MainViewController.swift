@@ -10,6 +10,7 @@
 //
 // Source code generated from template: aws-my-sample-app-ios-swift v0.4
 //
+// Edited by: Kee Sern Chua
 
 import UIKit
 import AWSMobileHubHelper
@@ -25,7 +26,7 @@ class MainViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back", style: .Plain, target: nil, action: nil)
+        //navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back", style: .Plain, target: nil, action: nil)
         
         // You need to call `- updateTheme` here in case the sign-in happens before `- viewWillAppear:` is called.
         updateTheme()
@@ -93,7 +94,7 @@ class MainViewController: UITableViewController {
                 comment: "Label for demo menu option."),
             detail: NSLocalizedString("practice the lessons",
                 comment: "Description for demo menu option."),
-            icon: "ContentDeliveryIcon", storyboard: "Practices")
+            icon: "SpeechBubble", storyboard: "Practices")
         
         
         demoFeatures.append(demoFeature)
@@ -133,7 +134,6 @@ class MainViewController: UITableViewController {
                         strongSelf.setupRightBarButtonItem()
                         strongSelf.updateTheme()
                 })
-                
                 setupRightBarButtonItem()
     }
     
@@ -144,6 +144,7 @@ class MainViewController: UITableViewController {
     }
 
     func setupRightBarButtonItem() {
+
             struct Static {
                 static var onceToken: dispatch_once_t = 0
             }
@@ -152,11 +153,16 @@ class MainViewController: UITableViewController {
                 let loginButton: UIBarButtonItem = UIBarButtonItem(title: nil, style: .Done, target: self, action: nil)
                 self.navigationItem.rightBarButtonItem = loginButton
             })
-            
+        
+        /*
             if (AWSIdentityManager.defaultIdentityManager().loggedIn) {
                 navigationItem.rightBarButtonItem!.title = NSLocalizedString("Sign-Out", comment: "Label for the logout button.")
                 navigationItem.rightBarButtonItem!.action = "handleLogout"
             }
+         */
+        navigationItem.rightBarButtonItem!.title = NSLocalizedString("Sign-Out", comment: "Label for the logout button.")
+        navigationItem.rightBarButtonItem!.action = "handleLogout"
+    
     }
     
     func presentSignInViewController() {
@@ -222,10 +228,10 @@ class MainViewController: UITableViewController {
         }
     }
 }
-
+/*
 class FeatureDescriptionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.backBarButtonItem = UIBarButtonItem.init(title: "Back", style: .Plain, target: nil, action: nil)
     }
-}
+}*/

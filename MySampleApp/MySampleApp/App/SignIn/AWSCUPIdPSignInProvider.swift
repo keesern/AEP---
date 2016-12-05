@@ -2,6 +2,7 @@
 //  AWSCUPIdPSignInProvider.swift
 //
 //  Created by Bruce Buckland on 9/20/16.
+//  Modified by Xiakan Xu on 10/15/16.
 //
 //
 // the name is intended to help differentiate between cognito
@@ -19,6 +20,8 @@ import AWSMobileHubHelper
 
 
 class AWSCUPIdPSignInProvider: NSObject, AWSSignInProvider {
+    
+    let defaults = NSUserDefaults.standardUserDefaults()
     
     static let sharedInstance = AWSCUPIdPSignInProvider() // create a singleton
     
@@ -103,6 +106,9 @@ class AWSCUPIdPSignInProvider: NSObject, AWSSignInProvider {
     // credentials
     
     func completeLogin() {
+        
+        downloadUserProfile()
+        
         NSUserDefaults.standardUserDefaults().setObject("YES", forKey: self.AWSCUPIdPSignInProviderKey)
         
         
@@ -113,6 +119,7 @@ class AWSCUPIdPSignInProvider: NSObject, AWSSignInProvider {
         
         AWSIdentityManager.defaultIdentityManager().logins()
         //completionHandler(nil,task.error!)
+
     }
     
     // using NSUserDefaults the SignInProvider keeps current logged in state even when device is shut down.
@@ -129,7 +136,6 @@ class AWSCUPIdPSignInProvider: NSObject, AWSSignInProvider {
                     // let response = task.result as! AWSCognitoIdentityUserSession
                     self.completeLogin()
                 }
-                
                 return nil
             }
         } else {
@@ -214,7 +220,7 @@ class AWSCUPIdPSignInProvider: NSObject, AWSSignInProvider {
         if let sessionRecallKeyValueDict = defaultDictionary[AWSSignInProviderIndex] as? NSDictionary  {
             AWSCUPIdPSignInProviderKey = sessionRecallKeyValueDict[AWSInfoClassNameKey] as? String
             if AWSCUPIdPSignInProviderKey == nil {
-
+                
                 print("\(AWSInfoClassNameKey) is not configured in \(AWSSignInProviderIndex) in Info.plist")
             }
         } else {
@@ -258,6 +264,41 @@ class AWSCUPIdPSignInProvider: NSObject, AWSSignInProvider {
     func interceptApplication(application: UIApplication, openURL: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
         // this doesn't happen for us (meaningfully).
         return true
+    }
+    
+    func downloadUserProfile(){
+        self.userPoolUser!.getDetails().continueWithBlock{(task) in
+            dispatch_async(dispatch_get_main_queue()) {
+                if task.error != nil {
+                    print(task.error)
+                }
+                else {
+                    
+                    var response:AWSCognitoIdentityUserGetDetailsResponse!
+                    response = task.result as! AWSCognitoIdentityUserGetDetailsResponse;
+                    
+                    for attribute in response.userAttributes! {
+                        
+                        // attribute.name have to match Cognito Attributes name
+                        switch attribute.name!{
+                        case "email":
+                            self.defaults.setObject(attribute.value!, forKey: "EmailAddress")
+                        case "custom:Lastname":
+                            self.defaults.setObject(attribute.value!, forKey: "Lastname")
+                        case "custom:Firstname":
+                            self.defaults.setObject(attribute.value!, forKey: "Firstname")
+                        case "custom:Kanji":
+                            self.defaults.setObject(attribute.value!, forKey: "Kanji")
+                        case "custom:WorkLocation":
+                            self.defaults.setObject(attribute.value!, forKey: "WorkLocation")
+                        default: ()
+                        }
+                    }
+                    print("UserProfile Refreshed")
+                }
+            }
+            return nil
+        }
     }
     
 }

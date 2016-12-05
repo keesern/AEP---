@@ -8,16 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		0909B5AD1DAC3737001183D9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909B5AC1DAC3737001183D9 /* SettingsViewController.swift */; };
-		0953D95A1DC6D99D00D93BCA /* Practices.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0953D9591DC6D99D00D93BCA /* Practices.storyboard */; };
-		0953D95E1DC6E43000D93BCA /* PracticesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953D95D1DC6E43000D93BCA /* PracticesViewController.swift */; };
-		0953D9601DC6EBDC00D93BCA /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953D95F1DC6EBDC00D93BCA /* Lesson.swift */; };
 		28262389370EFD5C14BE3E76 /* Pods_MySampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22983CB25098B386ED9C895 /* Pods_MySampleApp.framework */; };
-		4821E7DD1DCCE76000D2EE5D /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4821E7DC1DCCE75F00D2EE5D /* AboutController.swift */; };
-		4821E7DF1DCCE79E00D2EE5D /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4821E7DE1DCCE79E00D2EE5D /* About.storyboard */; };
-		483FE32F1DA6169C001A1B7A /* OsuHondaAEPLogo 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 483FE32D1DA6169C001A1B7A /* OsuHondaAEPLogo 2.png */; };
-		483FE3301DA6169C001A1B7A /* OsuHondaAEPLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 483FE32E1DA6169C001A1B7A /* OsuHondaAEPLogo.png */; };
-		486460661DD2DB8100238AE9 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486460651DD2DB8100238AE9 /* VideoViewController.swift */; };
-		486460681DD2E0FE00238AE9 /* VideoView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486460671DD2E0FE00238AE9 /* VideoView.storyboard */; };
+		487036031DDD4DAB00B9BBE5 /* VideoView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487036011DDD4DAB00B9BBE5 /* VideoView.storyboard */; };
+		487036041DDD4DAB00B9BBE5 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487036021DDD4DAB00B9BBE5 /* VideoViewController.swift */; };
+		487036101DDD4DBD00B9BBE5 /* Level1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487036051DDD4DBD00B9BBE5 /* Level1.storyboard */; };
+		487036111DDD4DBD00B9BBE5 /* Level1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487036061DDD4DBD00B9BBE5 /* Level1Controller.swift */; };
+		487036121DDD4DBD00B9BBE5 /* Level2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487036071DDD4DBD00B9BBE5 /* Level2.storyboard */; };
+		487036131DDD4DBD00B9BBE5 /* Level2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487036081DDD4DBD00B9BBE5 /* Level2Controller.swift */; };
+		487036141DDD4DBD00B9BBE5 /* Level3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487036091DDD4DBD00B9BBE5 /* Level3.storyboard */; };
+		487036151DDD4DBD00B9BBE5 /* Level3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870360A1DDD4DBD00B9BBE5 /* Level3Controller.swift */; };
+		487036161DDD4DBD00B9BBE5 /* Level4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4870360B1DDD4DBD00B9BBE5 /* Level4.storyboard */; };
+		487036171DDD4DBD00B9BBE5 /* Level4Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870360C1DDD4DBD00B9BBE5 /* Level4Controller.swift */; };
+		487036181DDD4DBD00B9BBE5 /* Level5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4870360D1DDD4DBD00B9BBE5 /* Level5.storyboard */; };
+		487036191DDD4DBD00B9BBE5 /* Level5Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870360E1DDD4DBD00B9BBE5 /* Level5Controller.swift */; };
+		4870361A1DDD4DBD00B9BBE5 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870360F1DDD4DBD00B9BBE5 /* Section.swift */; };
+		4870361D1DDD4DD000B9BBE5 /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4870361B1DDD4DD000B9BBE5 /* About.storyboard */; };
+		4870361E1DDD4DD000B9BBE5 /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870361C1DDD4DD000B9BBE5 /* AboutController.swift */; };
+		487036211DDD4DDF00B9BBE5 /* Practices.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4870361F1DDD4DDF00B9BBE5 /* Practices.storyboard */; };
+		487036221DDD4DDF00B9BBE5 /* PracticesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487036201DDD4DDF00B9BBE5 /* PracticesViewController.swift */; };
+		48A271CE1DDF5FBA00523BD9 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A271CD1DDF5FBA00523BD9 /* SignUp.storyboard */; };
+		48E83F061DDF74BD00A0FF7D /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E83F051DDF74BD00A0FF7D /* Global.swift */; };
 		D30D10621DCCFFC30063EC39 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30D105B1DCCFFC30063EC39 /* Camera.storyboard */; };
 		D30D10631DCCFFC30063EC39 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D105C1DCCFFC30063EC39 /* CameraView.swift */; };
 		D30D10641DCCFFC30063EC39 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30D105D1DCCFFC30063EC39 /* Player.storyboard */; };
@@ -26,13 +36,12 @@
 		D30D10671DCCFFC30063EC39 /* Record.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30D10601DCCFFC30063EC39 /* Record.storyboard */; };
 		D30D10681DCCFFC30063EC39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D10611DCCFFC30063EC39 /* ViewController.swift */; };
 		D30D106A1DCD00920063EC39 /* GoogleAPIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30D10691DCD00920063EC39 /* GoogleAPIClient.framework */; };
-		D3BD46691DD4D213005DA6F1 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BD46681DD4D213005DA6F1 /* Global.swift */; };
 		D91D3A841DC307E30023E90C /* AWSCognitoIdentityProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91D3A831DC307E30023E90C /* AWSCognitoIdentityProvider.framework */; };
 		D91D3A851DC307F30023E90C /* AWSCognitoIdentityProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91D3A831DC307E30023E90C /* AWSCognitoIdentityProvider.framework */; };
 		D91D3A861DC307F30023E90C /* AWSCognitoIdentityProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D91D3A831DC307E30023E90C /* AWSCognitoIdentityProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D92C27AA1DC147F600185388 /* UserProfileDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92C27A91DC147F600185388 /* UserProfileDB.swift */; };
 		D931F8311DAC48EE003DFD9B /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0909B5AA1DAC3689001183D9 /* Settings.storyboard */; };
 		D95672FE1DCAB03F001940A5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95672FD1DCAB03F001940A5 /* SignUpViewController.swift */; };
+		D9D37B251DF4A626008B77C6 /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D37B241DF4A626008B77C6 /* UserProfile.storyboard */; };
 		D9EAA44D1DC3243B0072DEB2 /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E296B807AD500000000 /* AWSDynamoDB.framework */; };
 		D9EAA44E1DC3243B0072DEB2 /* AWSDynamoDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E296B807AD500000000 /* AWSDynamoDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D9F3B8FC1DC3979F00669CC7 /* AWSCUPIdPSignInProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F3B8FB1DC3979F00669CC7 /* AWSCUPIdPSignInProvider.swift */; };
@@ -65,7 +74,6 @@
 		E7A30F0461E16E7200000000 /* UserFiles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E294BD4A88400000000 /* UserFiles.storyboard */; };
 		E7A30F046B0E168700000000 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E298327A1F300000000 /* UserProfileViewController.swift */; };
 		E7A30F047339E55800000000 /* UserFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E298158D29800000000 /* UserFilesViewController.swift */; };
-		E7A30F04751DAC2F00000000 /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29BB6D16C900000000 /* UserProfile.storyboard */; };
 		E7A30F0475292BE500000000 /* NoSQLQueryResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29F6BB2AC100000000 /* NoSQLQueryResultViewController.swift */; };
 		E7A30F047755F11200000000 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29414531FC00000000 /* SafariServices.framework */; };
 		E7A30F0484FE9EB900000000 /* ContentDelivery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29C77C985900000000 /* ContentDelivery.storyboard */; };
@@ -118,9 +126,6 @@
 /* Begin PBXFileReference section */
 		0909B5AA1DAC3689001183D9 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Settings.storyboard; path = MySampleApp/Demo/Welcome/Settings.storyboard; sourceTree = SOURCE_ROOT; };
 		0909B5AC1DAC3737001183D9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = MySampleApp/Demo/Welcome/SettingsViewController.swift; sourceTree = SOURCE_ROOT; };
-		0953D9591DC6D99D00D93BCA /* Practices.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Practices.storyboard; sourceTree = SOURCE_ROOT; };
-		0953D95D1DC6E43000D93BCA /* PracticesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticesViewController.swift; sourceTree = SOURCE_ROOT; };
-		0953D95F1DC6EBDC00D93BCA /* Lesson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = SOURCE_ROOT; };
 		1DD70E290348E26300000000 /* ContentDeliveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentDeliveryViewController.swift; path = MySampleApp/Demo/ContentDelivery/ContentDeliveryViewController.swift; sourceTree = SOURCE_ROOT; };
 		1DD70E29049DAC6500000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = MySampleApp/App/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		1DD70E2911AB9F2800000000 /* UserSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserSettingsViewController.swift; path = MySampleApp/Demo/UserSettings/UserSettingsViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -162,7 +167,6 @@
 		1DD70E29AD734B3900000000 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "MySampleApp/App/Launch Screen.storyboard"; sourceTree = SOURCE_ROOT; };
 		1DD70E29AE66B31800000000 /* AWSMobileHubHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSMobileHubHelper.framework; path = MySampleApp/AmazonAws/AWSMobileHubHelper.framework; sourceTree = "<group>"; };
 		1DD70E29B31E79F400000000 /* UserSettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = UserSettings.storyboard; path = MySampleApp/Demo/UserSettings/UserSettings.storyboard; sourceTree = SOURCE_ROOT; };
-		1DD70E29BB6D16C900000000 /* UserProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = UserProfile.storyboard; path = MySampleApp/Demo/UserIdentity/UserProfile.storyboard; sourceTree = SOURCE_ROOT; };
 		1DD70E29C77C985900000000 /* ContentDelivery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ContentDelivery.storyboard; path = MySampleApp/Demo/ContentDelivery/ContentDelivery.storyboard; sourceTree = SOURCE_ROOT; };
 		1DD70E29D187108300000000 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = MySampleApp/Sdk/Google/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		1DD70E29D3FA74CD00000000 /* AppAnalytics.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = AppAnalytics.storyboard; path = MySampleApp/Demo/AppAnalytics/AppAnalytics.storyboard; sourceTree = SOURCE_ROOT; };
@@ -178,13 +182,26 @@
 		1DD70E29F7C3679F00000000 /* NoSQLDatabase.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = NoSQLDatabase.storyboard; path = MySampleApp/Demo/NoSQL/NoSQLDatabase.storyboard; sourceTree = SOURCE_ROOT; };
 		1DD70E29FBBEC07A00000000 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = MySampleApp/App/SignIn/SignInViewController.swift; sourceTree = SOURCE_ROOT; };
 		1DD70E29FE47861100000000 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		4821E7DC1DCCE75F00D2EE5D /* AboutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = SOURCE_ROOT; };
-		4821E7DE1DCCE79E00D2EE5D /* About.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = About.storyboard; sourceTree = SOURCE_ROOT; };
-		483FE32D1DA6169C001A1B7A /* OsuHondaAEPLogo 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OsuHondaAEPLogo 2.png"; path = "mysampleapp/app/supportingfiles/OsuHondaAEPLogo 2.png"; sourceTree = SOURCE_ROOT; };
-		483FE32E1DA6169C001A1B7A /* OsuHondaAEPLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OsuHondaAEPLogo.png; path = mysampleapp/app/supportingfiles/OsuHondaAEPLogo.png; sourceTree = SOURCE_ROOT; };
-		486460651DD2DB8100238AE9 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = SOURCE_ROOT; };
-		486460671DD2E0FE00238AE9 /* VideoView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VideoView.storyboard; sourceTree = SOURCE_ROOT; };
+		487036011DDD4DAB00B9BBE5 /* VideoView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = VideoView.storyboard; path = MySampleApp/Demo/Level1/VideoView.storyboard; sourceTree = SOURCE_ROOT; };
+		487036021DDD4DAB00B9BBE5 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoViewController.swift; path = MySampleApp/Demo/Level1/VideoViewController.swift; sourceTree = SOURCE_ROOT; };
+		487036051DDD4DBD00B9BBE5 /* Level1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Level1.storyboard; path = MySampleApp/Demo/PracticeContents/Level1.storyboard; sourceTree = SOURCE_ROOT; };
+		487036061DDD4DBD00B9BBE5 /* Level1Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Level1Controller.swift; path = MySampleApp/Demo/PracticeContents/Level1Controller.swift; sourceTree = SOURCE_ROOT; };
+		487036071DDD4DBD00B9BBE5 /* Level2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Level2.storyboard; path = MySampleApp/Demo/PracticeContents/Level2.storyboard; sourceTree = SOURCE_ROOT; };
+		487036081DDD4DBD00B9BBE5 /* Level2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Level2Controller.swift; path = MySampleApp/Demo/PracticeContents/Level2Controller.swift; sourceTree = SOURCE_ROOT; };
+		487036091DDD4DBD00B9BBE5 /* Level3.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Level3.storyboard; path = MySampleApp/Demo/PracticeContents/Level3.storyboard; sourceTree = SOURCE_ROOT; };
+		4870360A1DDD4DBD00B9BBE5 /* Level3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Level3Controller.swift; path = MySampleApp/Demo/PracticeContents/Level3Controller.swift; sourceTree = SOURCE_ROOT; };
+		4870360B1DDD4DBD00B9BBE5 /* Level4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Level4.storyboard; path = MySampleApp/Demo/PracticeContents/Level4.storyboard; sourceTree = SOURCE_ROOT; };
+		4870360C1DDD4DBD00B9BBE5 /* Level4Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Level4Controller.swift; path = MySampleApp/Demo/PracticeContents/Level4Controller.swift; sourceTree = SOURCE_ROOT; };
+		4870360D1DDD4DBD00B9BBE5 /* Level5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Level5.storyboard; path = MySampleApp/Demo/PracticeContents/Level5.storyboard; sourceTree = SOURCE_ROOT; };
+		4870360E1DDD4DBD00B9BBE5 /* Level5Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Level5Controller.swift; path = MySampleApp/Demo/PracticeContents/Level5Controller.swift; sourceTree = SOURCE_ROOT; };
+		4870360F1DDD4DBD00B9BBE5 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Section.swift; path = MySampleApp/Demo/PracticeContents/Section.swift; sourceTree = SOURCE_ROOT; };
+		4870361B1DDD4DD000B9BBE5 /* About.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = About.storyboard; path = MySampleApp/Demo/About/About.storyboard; sourceTree = SOURCE_ROOT; };
+		4870361C1DDD4DD000B9BBE5 /* AboutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutController.swift; path = MySampleApp/Demo/About/AboutController.swift; sourceTree = SOURCE_ROOT; };
+		4870361F1DDD4DDF00B9BBE5 /* Practices.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Practices.storyboard; path = MySampleApp/Demo/Practices/Practices.storyboard; sourceTree = SOURCE_ROOT; };
+		487036201DDD4DDF00B9BBE5 /* PracticesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PracticesViewController.swift; path = MySampleApp/Demo/Practices/PracticesViewController.swift; sourceTree = SOURCE_ROOT; };
+		48A271CD1DDF5FBA00523BD9 /* SignUp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SignUp.storyboard; path = mysampleapp/app/signin/SignUp.storyboard; sourceTree = SOURCE_ROOT; };
 		48BA8C731DA5F2BD0019CF0F /* MySampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = MySampleApp.entitlements; path = MySampleApp/MySampleApp.entitlements; sourceTree = SOURCE_ROOT; };
+		48E83F051DDF74BD00A0FF7D /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Global.swift; path = MySampleApp/App/Utility/Global.swift; sourceTree = SOURCE_ROOT; };
 		A1D2D1DD6E01DB7AB1FEA369 /* Pods-MySampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySampleApp/Pods-MySampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		A22983CB25098B386ED9C895 /* Pods_MySampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30D105B1DCCFFC30063EC39 /* Camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Camera.storyboard; path = MySampleApp/App/Camera/Camera.storyboard; sourceTree = SOURCE_ROOT; };
@@ -195,10 +212,9 @@
 		D30D10601DCCFFC30063EC39 /* Record.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Record.storyboard; path = MySampleApp/App/Camera/Record.storyboard; sourceTree = SOURCE_ROOT; };
 		D30D10611DCCFFC30063EC39 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = MySampleApp/App/Camera/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		D30D10691DCD00920063EC39 /* GoogleAPIClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAPIClient.framework; path = "Pods/../build/Debug-iphoneos/GoogleAPIClient/GoogleAPIClient.framework"; sourceTree = "<group>"; };
-		D3BD46681DD4D213005DA6F1 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Global.swift; path = MySampleApp/App/Global.swift; sourceTree = SOURCE_ROOT; };
 		D91D3A831DC307E30023E90C /* AWSCognitoIdentityProvider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognitoIdentityProvider.framework; path = MySampleApp/Sdk/Aws/AWSCognitoIdentityProvider.framework; sourceTree = "<group>"; };
-		D92C27A91DC147F600185388 /* UserProfileDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserProfileDB.swift; path = MySampleApp/Demo/UserIdentity/UserProfileDB.swift; sourceTree = SOURCE_ROOT; };
 		D95672FD1DCAB03F001940A5 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = MySampleApp/App/SignIn/SignUpViewController.swift; sourceTree = SOURCE_ROOT; };
+		D9D37B241DF4A626008B77C6 /* UserProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = UserProfile.storyboard; path = mysampleapp/demo/useridentity/UserProfile.storyboard; sourceTree = SOURCE_ROOT; };
 		D9F3B8FB1DC3979F00669CC7 /* AWSCUPIdPSignInProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AWSCUPIdPSignInProvider.swift; path = MySampleApp/App/SignIn/AWSCUPIdPSignInProvider.swift; sourceTree = SOURCE_ROOT; };
 		F30D1DB6C99DA009DB801F37 /* Pods-MySampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySampleApp/Pods-MySampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -252,11 +268,8 @@
 		0953D9581DC6D98F00D93BCA /* Practices */ = {
 			isa = PBXGroup;
 			children = (
-				0953D9591DC6D99D00D93BCA /* Practices.storyboard */,
-				0953D95D1DC6E43000D93BCA /* PracticesViewController.swift */,
-				0953D95F1DC6EBDC00D93BCA /* Lesson.swift */,
-				486460671DD2E0FE00238AE9 /* VideoView.storyboard */,
-				486460651DD2DB8100238AE9 /* VideoViewController.swift */,
+				4870361F1DDD4DDF00B9BBE5 /* Practices.storyboard */,
+				487036201DDD4DDF00B9BBE5 /* PracticesViewController.swift */,
 			);
 			name = Practices;
 			sourceTree = "<group>";
@@ -264,10 +277,37 @@
 		4821E7DB1DCCE5CF00D2EE5D /* About */ = {
 			isa = PBXGroup;
 			children = (
-				4821E7DC1DCCE75F00D2EE5D /* AboutController.swift */,
-				4821E7DE1DCCE79E00D2EE5D /* About.storyboard */,
+				4870361B1DDD4DD000B9BBE5 /* About.storyboard */,
+				4870361C1DDD4DD000B9BBE5 /* AboutController.swift */,
 			);
 			name = About;
+			sourceTree = "<group>";
+		};
+		48C7833F1DDD24E50060EF5D /* Level1 */ = {
+			isa = PBXGroup;
+			children = (
+				487036011DDD4DAB00B9BBE5 /* VideoView.storyboard */,
+				487036021DDD4DAB00B9BBE5 /* VideoViewController.swift */,
+			);
+			name = Level1;
+			sourceTree = "<group>";
+		};
+		48F818771DDA674F007C371D /* PracticeContents */ = {
+			isa = PBXGroup;
+			children = (
+				487036051DDD4DBD00B9BBE5 /* Level1.storyboard */,
+				487036061DDD4DBD00B9BBE5 /* Level1Controller.swift */,
+				487036071DDD4DBD00B9BBE5 /* Level2.storyboard */,
+				487036081DDD4DBD00B9BBE5 /* Level2Controller.swift */,
+				487036091DDD4DBD00B9BBE5 /* Level3.storyboard */,
+				4870360A1DDD4DBD00B9BBE5 /* Level3Controller.swift */,
+				4870360B1DDD4DBD00B9BBE5 /* Level4.storyboard */,
+				4870360C1DDD4DBD00B9BBE5 /* Level4Controller.swift */,
+				4870360D1DDD4DBD00B9BBE5 /* Level5.storyboard */,
+				4870360E1DDD4DBD00B9BBE5 /* Level5Controller.swift */,
+				4870360F1DDD4DBD00B9BBE5 /* Section.swift */,
+			);
+			name = PracticeContents;
 			sourceTree = "<group>";
 		};
 		B401C97902F51D2700000000 /* AmazonAws */ = {
@@ -284,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				D95672FD1DCAB03F001940A5 /* SignUpViewController.swift */,
+				48A271CD1DDF5FBA00523BD9 /* SignUp.storyboard */,
 				1DD70E29EE4B346200000000 /* SignIn.storyboard */,
 				1DD70E29FBBEC07A00000000 /* SignInViewController.swift */,
 				D9F3B8FB1DC3979F00669CC7 /* AWSCUPIdPSignInProvider.swift */,
@@ -296,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				1DD70E29A54E217400000000 /* UtilityFunctions.swift */,
+				48E83F051DDF74BD00A0FF7D /* Global.swift */,
 			);
 			name = Utility;
 			path = mysampleapp/app/utility;
@@ -313,6 +355,8 @@
 		B401C9795BDD89CB00000000 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				48C7833F1DDD24E50060EF5D /* Level1 */,
+				48F818771DDA674F007C371D /* PracticeContents */,
 				4821E7DB1DCCE5CF00D2EE5D /* About */,
 				0953D9581DC6D98F00D93BCA /* Practices */,
 				0909B5A71DAC357C001183D9 /* Welcome */,
@@ -342,9 +386,8 @@
 		B401C9797C5AEA3300000000 /* UserProfile */ = {
 			isa = PBXGroup;
 			children = (
-				1DD70E29BB6D16C900000000 /* UserProfile.storyboard */,
+				D9D37B241DF4A626008B77C6 /* UserProfile.storyboard */,
 				1DD70E298327A1F300000000 /* UserProfileViewController.swift */,
-				D92C27A91DC147F600185388 /* UserProfileDB.swift */,
 			);
 			name = UserProfile;
 			path = mysampleapp/demo/useridentity;
@@ -408,7 +451,6 @@
 				B401C9790444F97300000000 /* SignIn */,
 				B401C979FEF8915B00000000 /* SupportingFiles */,
 				B401C9790780384B00000000 /* Utility */,
-				D3BD46681DD4D213005DA6F1 /* Global.swift */,
 			);
 			name = App;
 			path = mysampleapp/app;
@@ -502,8 +544,6 @@
 			isa = PBXGroup;
 			children = (
 				1DD70E296CFBF1A800000000 /* Info.plist */,
-				483FE32D1DA6169C001A1B7A /* OsuHondaAEPLogo 2.png */,
-				483FE32E1DA6169C001A1B7A /* OsuHondaAEPLogo.png */,
 			);
 			name = SupportingFiles;
 			path = mysampleapp/app/supportingfiles;
@@ -568,7 +608,7 @@
 				LastUpgradeCheck = 0700;
 				TargetAttributes = {
 					E66DC04E0000000000000000 = {
-						DevelopmentTeam = KAU9RMDDR6;
+						DevelopmentTeam = H7A9792ZT3;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -605,21 +645,25 @@
 				D30D10641DCCFFC30063EC39 /* Player.storyboard in Resources */,
 				E7A30F04C298525200000000 /* AppAnalytics.storyboard in Resources */,
 				E7A30F0492800CC600000000 /* UserSettings.storyboard in Resources */,
-				E7A30F04751DAC2F00000000 /* UserProfile.storyboard in Resources */,
-				4821E7DF1DCCE79E00D2EE5D /* About.storyboard in Resources */,
+				D9D37B251DF4A626008B77C6 /* UserProfile.storyboard in Resources */,
+				487036121DDD4DBD00B9BBE5 /* Level2.storyboard in Resources */,
+				4870361D1DDD4DD000B9BBE5 /* About.storyboard in Resources */,
 				E7A30F04B4D5D7AB00000000 /* NoSQLDatabase.storyboard in Resources */,
 				D931F8311DAC48EE003DFD9B /* Settings.storyboard in Resources */,
 				D30D10621DCCFFC30063EC39 /* Camera.storyboard in Resources */,
 				E7A30F0484FE9EB900000000 /* ContentDelivery.storyboard in Resources */,
 				E7A30F04D4A0F94600000000 /* UserDataStorage.storyboard in Resources */,
+				487036101DDD4DBD00B9BBE5 /* Level1.storyboard in Resources */,
 				E7A30F0411A9718900000000 /* Launch Screen.storyboard in Resources */,
-				0953D95A1DC6D99D00D93BCA /* Practices.storyboard in Resources */,
-				483FE3301DA6169C001A1B7A /* OsuHondaAEPLogo.png in Resources */,
+				48A271CE1DDF5FBA00523BD9 /* SignUp.storyboard in Resources */,
+				487036141DDD4DBD00B9BBE5 /* Level3.storyboard in Resources */,
 				E7A30F0497DCFE6400000000 /* Images.xcassets in Resources */,
+				487036031DDD4DAB00B9BBE5 /* VideoView.storyboard in Resources */,
 				E7A30F0461E16E7200000000 /* UserFiles.storyboard in Resources */,
-				486460681DD2E0FE00238AE9 /* VideoView.storyboard in Resources */,
+				487036161DDD4DBD00B9BBE5 /* Level4.storyboard in Resources */,
 				E7A30F0486D5954B00000000 /* GoogleSignIn.bundle in Resources */,
-				483FE32F1DA6169C001A1B7A /* OsuHondaAEPLogo 2.png in Resources */,
+				487036181DDD4DBD00B9BBE5 /* Level5.storyboard in Resources */,
+				487036211DDD4DDF00B9BBE5 /* Practices.storyboard in Resources */,
 				E7A30F04EF91249200000000 /* Main.storyboard in Resources */,
 				D30D10671DCCFFC30063EC39 /* Record.storyboard in Resources */,
 			);
@@ -706,32 +750,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4870361A1DDD4DBD00B9BBE5 /* Section.swift in Sources */,
 				E7A30F04FFF3380B00000000 /* ContentDeliveryViewController.swift in Sources */,
 				E7A30F0404E8BE0700000000 /* AEPStudentsTable.swift in Sources */,
 				E7A30F047339E55800000000 /* UserFilesViewController.swift in Sources */,
 				D30D10651DCCFFC30063EC39 /* PlayerView.swift in Sources */,
-				D92C27AA1DC147F600185388 /* UserProfileDB.swift in Sources */,
+				48E83F061DDF74BD00A0FF7D /* Global.swift in Sources */,
 				D30D10661DCCFFC30063EC39 /* PlayerViewController.swift in Sources */,
 				E7A30F04C9EBBD7400000000 /* NoSQLTableListViewController.swift in Sources */,
 				E7A30F04A97ADB4F00000000 /* NoSQLTableFactory.swift in Sources */,
 				D95672FE1DCAB03F001940A5 /* SignUpViewController.swift in Sources */,
 				E7A30F04DBDAD15500000000 /* AppDelegate.swift in Sources */,
 				E7A30F04BE67CC2300000000 /* UserDataStorageViewController.swift in Sources */,
-				0953D95E1DC6E43000D93BCA /* PracticesViewController.swift in Sources */,
+				487036221DDD4DDF00B9BBE5 /* PracticesViewController.swift in Sources */,
+				487036191DDD4DBD00B9BBE5 /* Level5Controller.swift in Sources */,
 				E7A30F0486D5677100000000 /* DemoFeature.swift in Sources */,
 				E7A30F0433D6706B00000000 /* ColorThemeSettings.swift in Sources */,
 				D30D10681DCCFFC30063EC39 /* ViewController.swift in Sources */,
 				E7A30F041B36786A00000000 /* NoSQLSampleDataGenerator.swift in Sources */,
-				D3BD46691DD4D213005DA6F1 /* Global.swift in Sources */,
+				487036041DDD4DAB00B9BBE5 /* VideoViewController.swift in Sources */,
 				D30D10631DCCFFC30063EC39 /* CameraView.swift in Sources */,
-				486460661DD2DB8100238AE9 /* VideoViewController.swift in Sources */,
 				D9F3B8FC1DC3979F00669CC7 /* AWSCUPIdPSignInProvider.swift in Sources */,
+				487036131DDD4DBD00B9BBE5 /* Level2Controller.swift in Sources */,
 				E7A30F04CE80434C00000000 /* UtilityFunctions.swift in Sources */,
+				487036111DDD4DBD00B9BBE5 /* Level1Controller.swift in Sources */,
 				E7A30F04EF0DE5EB00000000 /* NoSQLTableViewController.swift in Sources */,
 				E7A30F0460E7BFE800000000 /* MainViewController.swift in Sources */,
 				0909B5AD1DAC3737001183D9 /* SettingsViewController.swift in Sources */,
-				0953D9601DC6EBDC00D93BCA /* Lesson.swift in Sources */,
-				4821E7DD1DCCE76000D2EE5D /* AboutController.swift in Sources */,
+				487036151DDD4DBD00B9BBE5 /* Level3Controller.swift in Sources */,
+				487036171DDD4DBD00B9BBE5 /* Level4Controller.swift in Sources */,
+				4870361E1DDD4DD000B9BBE5 /* AboutController.swift in Sources */,
 				E7A30F0434B6C57800000000 /* AppAnalyticsViewController.swift in Sources */,
 				E7A30F0475292BE500000000 /* NoSQLQueryResultViewController.swift in Sources */,
 				E7A30F04EC708F4700000000 /* SignInViewController.swift in Sources */,
@@ -800,7 +848,7 @@
 				CODE_SIGN_ENTITLEMENTS = MySampleApp/MySampleApp.entitlements;
 				CODE_SIGN_IDENTITY = "iphone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = KAU9RMDDR6;
+				DEVELOPMENT_TEAM = H7A9792ZT3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -813,7 +861,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/MySampleApp/App/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shaoguang.AEP-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chua.AEP-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -881,7 +929,7 @@
 				CODE_SIGN_ENTITLEMENTS = MySampleApp/MySampleApp.entitlements;
 				CODE_SIGN_IDENTITY = "iphone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = KAU9RMDDR6;
+				DEVELOPMENT_TEAM = H7A9792ZT3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -894,7 +942,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/MySampleApp/App/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shaoguang.AEP-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chua.AEP-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";

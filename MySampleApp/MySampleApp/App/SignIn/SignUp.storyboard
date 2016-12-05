@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sign-Up View Controller-->
+        <scene sceneID="zuI-Sg-L00">
+            <objects>
+                <viewController storyboardIdentifier="SignUp" title="Sign-Up View Controller" id="WcO-nC-lKP" customClass="SignUpViewController" customModule="MySampleApp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C8g-1D-UFf"/>
+                        <viewControllerLayoutGuide type="bottom" id="0sh-FQ-5Bm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oUa-No-my8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="EmailAddress" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ogC-2H-mZL">
+                                <rect key="frame" x="20" y="72" width="339" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="dsaf">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rhg-UW-11e" userLabel="New Password Field">
+                                <rect key="frame" x="20" y="127" width="560" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet" secureTextEntry="YES"/>
+                            </textField>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cXr-3h-iqj">
+                                <rect key="frame" x="20" y="20" width="560" height="0.0"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="Xqw-lW-Cxc"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bFr-iv-AaM">
+                                <rect key="frame" x="89" y="292" width="196" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <action selector="handleSignUpPressed:" destination="WcO-nC-lKP" eventType="touchUpInside" id="r1O-Cl-8gx"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g2K-rk-kO5">
+                                <rect key="frame" x="22" y="184" width="335" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QJI-po-WLn">
+                                <rect key="frame" x="22" y="236" width="335" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gW-uW-Y2L">
+                                <rect key="frame" x="16" y="28" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <connections>
+                                    <action selector="backToLogin:" destination="WcO-nC-lKP" eventType="touchUpInside" id="7iR-2U-7vD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="cXr-3h-iqj" secondAttribute="trailing" id="6Cl-g5-TdC"/>
+                            <constraint firstItem="cXr-3h-iqj" firstAttribute="leading" secondItem="oUa-No-my8" secondAttribute="leadingMargin" id="CQJ-hs-bRZ"/>
+                            <constraint firstItem="cXr-3h-iqj" firstAttribute="top" secondItem="C8g-1D-UFf" secondAttribute="bottom" id="S5s-Sr-ooY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Create New Account" id="4tP-Ef-WyV">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="DiH-4x-BU9"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="anchorView" destination="cXr-3h-iqj" id="wxi-mz-rMj"/>
+                        <outlet property="newEmailAddressField" destination="ogC-2H-mZL" id="WTm-N6-zWe"/>
+                        <outlet property="newFirstNameField" destination="QJI-po-WLn" id="Y06-vR-PId"/>
+                        <outlet property="newLastNameField" destination="g2K-rk-kO5" id="qI3-K6-ibF"/>
+                        <outlet property="newPasswordField" destination="Rhg-UW-11e" id="V3b-kx-l4b"/>
+                        <outlet property="signupButton" destination="bFr-iv-AaM" id="36p-wr-yk8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J3l-xi-nkc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4788" y="459.22038980509751"/>
+        </scene>
+    </scenes>
+</document>

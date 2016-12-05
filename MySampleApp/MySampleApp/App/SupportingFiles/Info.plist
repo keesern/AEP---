@@ -9,7 +9,7 @@
 			<key>Default</key>
 			<dict>
 				<key>Region</key>
-				<string>us-west-2</string>
+				<string>us-east-1</string>
 			</dict>
 		</dict>
 		<key>ContentManager</key>
@@ -29,9 +29,9 @@
 				<key>Default</key>
 				<dict>
 					<key>PoolId</key>
-					<string>us-west-2:a200bb6f-06f2-44a5-b132-cb1abf3b032f</string>
+					<string>us-east-1:cdd3081a-a70a-4b95-9bfd-c0f7f91eaade</string>
 					<key>Region</key>
-					<string>us-west-2</string>
+					<string>us-east-1</string>
 				</dict>
 			</dict>
 		</dict>
@@ -50,22 +50,17 @@
 				<key>CognitoYourUserPools</key>
 				<dict>
 					<key>COGNITO_REGIONTYPE</key>
-					<string>USWest2</string>
+					<string>USEast1</string>
 					<key>COGNITO_USER_POOL_APP_CLIENT_ID</key>
-					<string>4u86a8hs9tknn2gk0963qec8a9</string>
+					<string>15jkmpghkksu8t2fd3auvbd9pm</string>
 					<key>COGNITO_USER_POOL_APP_CLIENT_SECRET</key>
-					<string>ath91gls40pkterf82ga3ftchtbkp7b1i6oor4rqb9dq6n9h9jd</string>
+					<string>1a478tof39fd68jle6r80vijiu6tlikc4jikcj3ub75pk1vkjdeb</string>
 					<key>COGNITO_USER_POOL_ID</key>
-					<string>us-west-2_AWiYs0HNt</string>
+					<string>us-east-1_I1OVTqqaY</string>
 					<key>COGNITO_USER_POOL_IDP_NAME</key>
 					<string>$(COGNITO_USER_POOL_IDP_NAME)</string>
 					<key>COGNITO_USER_POOL_NAME</key>
 					<string>$(COGNITO_USER_POOL_NAME)</string>
-				</dict>
-				<key>Google</key>
-				<dict>
-					<key>ClientId</key>
-					<string>507696508758-cmf5du0htmcap2jkeibfqi96mla857ii.apps.googleusercontent.com</string>
 				</dict>
 				<key>SignInProviderKeyDictionary</key>
 				<dict>
@@ -106,6 +101,8 @@
 	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>English Training Program</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

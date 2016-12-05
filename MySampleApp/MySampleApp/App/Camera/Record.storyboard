@@ -24,11 +24,31 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2we-WQ-RjC" customClass="CameraView" customModule="MySampleApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCT-27-87H">
-                                        <rect key="frame" x="163" y="617" width="49" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCT-27-87H">
+                                        <rect key="frame" x="38" y="579" width="299" height="41"/>
+                                        <color key="backgroundColor" red="0.95868305682044397" green="0.96817496827411165" blue="0.96817496827411165" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Record"/>
                                         <connections>
                                             <action selector="touchUpRecord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NgB-48-djP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="75G-yD-EFn">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Tap Anywhere To End Pratice">
+                                                    <attributes>
+                                                        <font key="NSFont" metaFont="system" size="20"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="charWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="EndConversation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wn7-zy-BjE"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -48,6 +68,7 @@
                     </view>
                     <connections>
                         <outlet property="cameraView" destination="2we-WQ-RjC" id="aCD-K4-oGd"/>
+                        <outlet property="endconversation" destination="75G-yD-EFn" id="BgG-fn-uCd"/>
                         <outlet property="recordButton" destination="lCT-27-87H" id="gfG-ak-d6Y"/>
                         <segue destination="uC5-Nr-LzF" kind="show" identifier="recordtoplayer" id="eOs-YG-mLc"/>
                     </connections>

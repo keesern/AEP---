@@ -1,19 +1,25 @@
+// Edited by: Kee Sern Chua
+
 import UIKit
 import AVFoundation
 import Photos
 
-
 class ViewController: UIViewController{
     
     @IBOutlet weak var cameraView: CameraView!
+    @IBOutlet weak var recordButton: UIButton!
+    @IBOutlet weak var endconversation: UIButton!
+
     let session = AVCaptureSession()
     var videoDeviceInput: AVCaptureDeviceInput!
     let sessionQueue = dispatch_queue_create("CameraRecord", nil)
     var movieFileOutput: AVCaptureMovieFileOutput? = nil
-    @IBOutlet weak var recordButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        recordButton.layer.cornerRadius = 4
+        endconversation.hidden = true
+        recordButton.hidden = false
         cameraView.session = session
         
         switch AVCaptureDevice.authorizationStatusForMediaType(AVMediaTypeVideo) {
@@ -35,6 +41,7 @@ class ViewController: UIViewController{
         dispatch_async(sessionQueue) { [weak strongSelf = self] in
             strongSelf?.configureSession()
         }
+
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -64,6 +71,10 @@ class ViewController: UIViewController{
             }
         }
         
+    }
+    @IBAction func EndConversation(sender: UIButton) {
+        countVideo.count=0
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
 }
@@ -121,12 +132,16 @@ extension ViewController{
 
 extension ViewController : AVCaptureFileOutputRecordingDelegate {
     func captureOutput(captureOutput: AVCaptureFileOutput!, didStartRecordingToOutputFileAtURL fileURL: NSURL!, fromConnections connections: [AnyObject]!) {
+        if(countVideo.count == 5){
+            self.dismissViewControllerAnimated(true, completion: nil)
+        }
         dispatch_async(dispatch_get_main_queue(),{
             [weak strongSelf = self] in
             strongSelf?.recordButton.enabled = true
             strongSelf?.recordButton.setTitle("Stop", forState: [])
             }
         )
+        
     }
     
     func captureOutput(captureOutput: AVCaptureFileOutput!, didFinishRecordingToOutputFileAtURL outputFileURL: NSURL!, fromConnections connections: [AnyObject]!, error: NSError!) {
@@ -146,6 +161,8 @@ extension ViewController : AVCaptureFileOutputRecordingDelegate {
                 })
             }
         }
+
+   
         dispatch_async(dispatch_get_main_queue(),{
             [weak strongSelf = self] in
             strongSelf?.recordButton.enabled = true
@@ -154,7 +171,14 @@ extension ViewController : AVCaptureFileOutputRecordingDelegate {
             }
         )
         
+        if (countVideo.count == 4){
+            self.recordButton.hidden = true
+            self.endconversation.hidden = false
+        }
+
+        
     }
+    
 }
 
 
