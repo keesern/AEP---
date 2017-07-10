@@ -7,8 +7,9 @@ OSU Automotive English Program is remolding English training for the digital lea
 
 Project consist of two part, an iOS App & Web Applciation.
 
-### A completely new restructured architecture using AWS 
-## User Authentication & Access Management
+# iOS Backend
+#### A completely new restructured architecture using AWS 
+### User Authentication & Access Management
 # Cognito
 Custom user authentication via custom authentication process while still synchronizing user data and access AWS resources
 
